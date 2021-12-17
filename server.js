@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 // ** CONNECT TO DB ***
 //mongoose.connect("http//localhost:27017/db_name")
 mongoose.connect(
-  "mongodb+srv://dilshodDCI:dilshodDCI123@cluster0.ldws3.mongodb.net/mentor?retryWrites=true&w=majority",
+  "mongodb+srv://dilshodDCI:your_password@cluster0.ldws3.mongodb.net/mentor?retryWrites=true&w=majority",
 );
 
 mongoose.connection.on("error", console.error);
